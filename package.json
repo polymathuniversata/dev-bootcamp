@@ -1,0 +1,1 @@
+{"scripts":{"start":"lite-server","dev":"lite-server --port 3000"},"devDependencies":{"lite-server":"^2.6.1"}}

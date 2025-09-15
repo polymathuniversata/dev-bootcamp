@@ -1,0 +1,36 @@
+header {
+    background-color: #f1f1f1;
+    padding: 40px;
+    text-align: center;
+    width: auto;
+    }
+
+footer {
+    background-color: #f1f1f1;
+    padding: 40px;
+    text-align: center;
+    }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-style: dotted;
+  width: 70%;
+}
+
+td, th {
+  border: 1px dotted #020202;
+  text-align:center;
+  padding: 8px;
+  border-radius: 10px;
+  border-style: dotted;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 33% 33%;
+}
